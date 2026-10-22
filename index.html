@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Guide | Tamil Nadu Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>🌍 Go Guide</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#places">Places</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Explore Tamil Nadu</h1>
+        <p>Discover beautiful places. Plan your perfect trip.</p>
+
+        <input type="text" id="search"
+               placeholder="Search places in Tamil Nadu...">
+
+        <button onclick="searchPlaces()">Search</button>
+    </section>
+
+    <section class="places" id="places">
+        <h2>Popular Destinations</h2>
+
+        <div class="place-container" id="placeContainer">
+
+            <div class="card" data-name="ooty">
+                <a href="ooty.html" class="destination-card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80" alt="Mountain landscape">
+                <h3>Ooty</h3>
+                <p>Enjoy green hills and beautiful tea gardens.</p>
+                </a>
+            </div>
+
+            <div class="card" data-name="kodaikanal">
+                <a href="kodaikanal.html"></a>
+                <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=600&q=80" alt="Green forest">
+                <h3>Kodaikanal</h3>
+                <p>Explore forests, lakes and cool weather.</p>
+            </div>
+
+            <div class="card" data-name="chennai">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Beach">
+                <h3>Chennai</h3>
+                <p>Discover city life and Marina Beach.</p>
+            </div>
+
+            <div class="card" data-name="madurai">
+                <a href="madurai.html" class="destination-card">
+                <img src="images/madurai temple.avif" alt="Historic architecture">
+                <h3>Madurai</h3>
+                <p>Experience temples and Tamil heritage.</p>
+                </a>
+            </div>
+
+            <div class="card" data-name="kanyakumari">
+                <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=600&q=80" alt="Ocean view">
+                <h3>Kanyakumari</h3>
+                <p>Enjoy beautiful coastal views and sunrise.</p>
+            </div>
+
+            <div class="card" data-name="yercaud">
+                <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=600&q=80" alt="Nature landscape">
+                <h3>Yercaud</h3>
+                <p>Relax among hills and peaceful viewpoints.</p>
+            </div>
+
+                <div class="card" data-name="kollihills">
+                <img src="images/images.jpeg" alt="Nature landscape">
+                <h3>kollihills</h3>
+                <p>Kolli Hills is a beautiful hill station in Tamil Nadu.</p>
+            </div>
+        </div>
+        <p id="message"></p>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Go Guide</h2>
+        <p>Go Guide helps travellers discover destinations
+           across Tamil Nadu and plan memorable journeys.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Go Guide | Tamil Nadu Travel Planner</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
